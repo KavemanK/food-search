@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DIG4503 - Kellen Huber - Semester Project</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="author" content="Kellen Huber" />
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="stylesheet" href="css/reset.css" type="text/css"/>
+		<link rel="stylesheet" href="css/styles.css" type="text/css"/>
+		<!--<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen"/> Reset Stylesheet goes here-->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/semesterProject.js"></script>
+
+			
+	</head>
+	<body>
+		<div id="main_container">
+			<header>
+				<img src="img/logo_main_large.png" alt="logo"></img>
+			</header>
+			
+			<div>
+				<h2>Welcome to FoodSearch, the best recipe database. Input the food you're looking for and the minimum and maximum calories. Example: Pizza, 500-1000cal</h2>
+				<!--IE only allows 50 search items available to other browswers for Nutritionix API restricting calling more data-->
+				<br>
+				<p>50 items will be presented to you, then click the recipe button to find recipes based on that food name</p>
+
+				<form action="search_test.php" method="get">
+					<div class="items">				
+						<div class="item_key">Item</div>
+						<div class="item_min">Calories Mininum</div>
+						<div class="item_max">Calories Max</div>
+					</div>
+
+					<input class="input_name" type="text" name="item_name" id="item_name">
+					
+					<input class="cal_min" type="text" name="cal_min" id="cal_min">
+					
+					<input class="cal_max" type="text" name="cal_max" id="cal_max">
+					
+					<input class="submit" type="submit">
+				</form>
+
+				<div id="out_response"></div>
+
+			</div>
+			<footer>
+				<p>&copy; Copyright by Kellen Huber 2013. This site is not official and is an assignment for a UCF Digital Media course. Powered by <a href="http://www.nutritionix.com/api">Nutritionix API</a> and <a href="https://developer.yummly.com/#api">Yummly API</a>.
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

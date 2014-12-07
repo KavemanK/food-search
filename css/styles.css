@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/********************************/
+/********  Global ***********/
+/*******************************/
+html{
+	background:url(http://sulley.cah.ucf.edu/~ke648704/semesterproject/img/backgroundmain.jpg) no-repeat top center fixed;
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+header {
+	float: left;
+	height: 100px;
+	width: 100%;
+	margin-bottom: 15px;
+	border-bottom: solid 4px #000;
+	background-color: #090;
+}
+
+footer{
+	float: left;
+	height:50px;
+	width: 100%;
+	border-top: solid 5px #000;
+	border-bottom: solid 2px #000;
+	margin-top: 10px;
+	background-color: #090;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+}
+p {
+	font: 15px Arial, Helvetica, sans-serif;
+	color: #000;
+	text-align: center;
+
+}
+footer p {
+	font: 15px Arial, Helvetica, sans-serif;
+	color: #000;
+	text-align: center;
+	padding-top: 16px;
+}
+
+/********************************/
+/******** Form Section **********/
+/*******************************/
+form {
+
+	float: left;
+	height: 70px;
+	padding: 1px;
+	border-color: #000;
+	background-color: rgba(0,0,0,0.5);
+	/*width: 1145px;*/
+	width:100%;
+}
+
+input.input_name {
+	
+	float: left;
+	width:248px;	
+	margin:10px 0px 0px 5px;
+	padding-left: 2px;
+	border-color: #000;
+	border-width: 1px;
+	border-style: solid;
+	font: 15px Arial, Helvetica, sans-serif;
+
+}
+input.cal_min {
+	float: left;
+	margin:10px 0px 0px 0px;
+	padding-left: 2px;
+	width:150px;
+	border-color: #000;
+	border-width: 1px;
+	border-style: solid;
+	font: 15px Arial, Helvetica, sans-serif;
+
+}
+input.cal_max {
+	float: left;
+	width:150px;
+	margin:10px 0px 0px 0px;
+	padding-left: 2px;
+	border-color: #000;
+	border-width: 1px;
+	border-style: solid;
+	font: 15px Arial, Helvetica, sans-serif;
+
+}
+input.submit{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #000;
+	margin:10px 0px 0px 0px;
+	height: 22px;
+	width: 148px;
+	border-color: #000;
+	border-width: 1px;
+	border-style: solid;
+}
+.items {
+	float: left;
+	margin:10px 0px 0px 5px;
+	padding-left: 2px;
+	width:100%;
+	
+}
+.item_key{
+	float: left;
+	width: 270px;
+	padding-right: 2px;
+	color:#fff;
+	font: 15px Arial, Helvetica, sans-serif;
+}
+.item_min{
+	float: left;
+	width: 155px;
+	padding-right: 8px;
+	color:#fff;
+	font: 15px Arial, Helvetica, sans-serif;
+} 
+.item_max{
+	float: left;
+	width: 400px;
+	padding-right: 8px;
+	color:#fff;
+	font: 15px Arial, Helvetica, sans-serif;
+}
+/********************************/
+/******** Formating **********/
+/*******************************/
+#main_container {
+	height: 100%;
+  	width:100%;
+  	margin-left:auto;
+  	margin-right:auto;
+}
+#out_response{
+	float: left;
+	width:100%;
+	margin-left:auto;
+ 	margin-right:auto
+}
+.search{
+	float: left;
+	height: 60px;
+	margin: 1px 0px 0px 2px;
+	border: thin solid #000;
+	background-color: #090;
+}
+a.button{
+	float: left;
+	width:285px;
+	font: 16px Arial, Helvetica, sans-serif;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 21px;
+	text-align: center;	
+	text-decoration: none;
+	background-color: #000;
+}
+.container{
+	float: left;
+	width: 810px;
+	padding: 20px 0px 20px 3px;
+	border-right: thin solid #000;
+	font: 16px Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+.recipe{
+	float: left;
+	height: 60px;
+	width: 285px;
+	border-right: thin solid #000;
+	
+}
+.item {
+	float: left;
+	margin-left: 195px;
+	text-align: center;
+	color:#000;
+	font: 16px Arial, Helvetica, sans-serif;
+}
+.brand_name{
+	float: left;
+	margin-left: 355px;
+	text-align: center;
+	color:#000;
+	font: 16px Arial, Helvetica, sans-serif;
+}
+.fat_total{
+	float: left;
+	margin-left: 180px;
+	text-align: center;
+	color:#000;
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+
+.name, .brand {
+	width: 400px;
+	float: left;
+	padding: 20px 0px 20px 5px;
+	border-right: thin solid #000;
+	font: 16px Arial, Helvetica, sans-serif;
+	text-align: center;
+
+}
+.calories{
+	float: left;
+	width: 50px;
+	padding: 20px 0px 20px 3px;
+	border-right: thin solid #000;
+	font: 16px Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+
+
+
